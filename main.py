@@ -1,9 +1,9 @@
-import datetime
+Timport datetime
 from twilio.rest import Client 
 
 # Twilio credentials
-account_sid = 'AC047992e0669f6b1d652896e33c06df3e'
-auth_token = '8635fea3b196015a7e6ff0a210713947'
+account_sid = 'INSERT_HERE'
+auth_token = 'INSERT_HERE'
 client = Client(account_sid, auth_token)
 
 # Your phone number
